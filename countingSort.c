@@ -4,7 +4,7 @@ void countingSort(int arr[], int k, int n)
 {
 
     int count[k + 1];
-    for (int i = 0; i < k; i++)
+    for (int i = 0; i <= k; i++)
     {
         count[i] = 0;
     }
@@ -14,7 +14,7 @@ void countingSort(int arr[], int k, int n)
         count[arr[i]]++;
     }
 
-    for (int i = 1; i < k; i++)
+    for (int i = 1; i <= k; i++)
     {
         count[i] = count[i] + count[i - 1];
     }
