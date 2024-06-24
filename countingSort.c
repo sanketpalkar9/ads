@@ -1,3 +1,6 @@
+// This code doesnt have errors it just looks like in compiler
+
+
 #include <stdio.h>
 
 void countingSort(int arr[], int k, int n)
